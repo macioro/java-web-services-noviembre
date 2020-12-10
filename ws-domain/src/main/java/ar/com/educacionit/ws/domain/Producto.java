@@ -1,42 +1,49 @@
 package ar.com.educacionit.ws.domain;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
-import javax.persistence.Table;
 import javax.persistence.Id;
-import javax.persistence.Column;
+import javax.persistence.Table;
 
 @Entity
-@Table(name = "productos")
+@Table(name="productos")
 public class Producto {
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-
+	
 	@Column(name = "titulo", nullable = false, length = 50)
 	private String titulo;
-
-	@Column(name = "codigo", nullable = false, unique = true, length = 50)
+	
+	@Column(name = "codigo", nullable = false, unique = true, length = 6)
 	private String codigo;
-
+	
 	@Column(name = "precio", nullable = false)
-	private float precio;
-
+	private Float precio;
+	
+	@Column(name="tipo_producto", nullable = false)
+	private Long tipoProducto;
+	
+	//contructor
 	public Producto() {
+		
 	}
 
-	public Producto(Long id, String titulo, String codigo, float precio) {
+	public Producto(Long id, String titulo, String codigo, Float precio) {
 		this.id = id;
 		this.titulo = titulo;
 		this.codigo = codigo;
 		this.precio = precio;
 	}
 
-	public Producto(String titulo, String codigo, float precio) {
+	public Producto(String titulo, String codigo, Float precio, Long tipoProducto) {
 		this.titulo = titulo;
 		this.codigo = codigo;
 		this.precio = precio;
+		this.tipoProducto = tipoProducto;
 	}
 
 	public Long getId() {
@@ -63,12 +70,28 @@ public class Producto {
 		this.codigo = codigo;
 	}
 
-	public float getPrecio() {
+	public Float getPrecio() {
 		return precio;
 	}
 
-	public void setPrecio(float precio) {
+	public void setPrecio(Float precio) {
 		this.precio = precio;
 	}
 
+	@Override
+	public String toString() {
+		return "Producto [id=" + id + ", titulo=" + titulo + ", codigo=" + codigo + ", precio=" + precio
+				+ ", tipoProducto=" + tipoProducto + "]";
+	}
+
+	public Long getTipoProducto() {
+		return tipoProducto;
+	}
+
+	public void setTipoProducto(Long tipoProducto) {
+		this.tipoProducto = tipoProducto;
+	}
+	
+	//alt+shit+s
+	
 }

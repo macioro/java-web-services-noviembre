@@ -1,1 +1,3 @@
-/home/macioro/git/java-web-services-noviembre/ws-services/src/main/java/ar/com/educacionit/app/services/App.java
+/home/macioro/git/java-web-services-noviembre/ws-services/src/main/java/ar/com/educacionit/ws/services/impl/ProductoServiceImpl.java
+/home/macioro/git/java-web-services-noviembre/ws-services/src/main/java/ar/com/educacionit/ws/exceptions/ServiceException.java
+/home/macioro/git/java-web-services-noviembre/ws-services/src/main/java/ar/com/educacionit/ws/services/ProductoService.java

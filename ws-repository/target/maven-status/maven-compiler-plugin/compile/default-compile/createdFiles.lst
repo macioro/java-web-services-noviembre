@@ -1,0 +1,6 @@
+ar/com/educacionit/ws/exceptions/DuplicatedException.class
+ar/com/educacionit/ws/repository/hibernate/HibernateUtils.class
+ar/com/educacionit/ws/repository/hibernate/HibernateBaseRepository.class
+ar/com/educacionit/ws/repository/impl/ProductoRepositoryHibImpl.class
+ar/com/educacionit/ws/repository/ProductoRepository.class
+ar/com/educacionit/ws/exceptions/GenericExeption.class
