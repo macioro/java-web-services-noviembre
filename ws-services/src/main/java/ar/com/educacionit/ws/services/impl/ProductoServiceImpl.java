@@ -5,6 +5,7 @@ import java.util.List;
 import ar.com.educacionit.ws.domain.Producto;
 import ar.com.educacionit.ws.exceptions.DuplicatedException;
 import ar.com.educacionit.ws.exceptions.GenericExeption;
+import ar.com.educacionit.ws.exceptions.ServiceException;
 import ar.com.educacionit.ws.repository.ProductoRepository;
 import ar.com.educacionit.ws.repository.impl.ProductoRepositoryHibImpl;
 import ar.com.educacionit.ws.services.ProductoService;

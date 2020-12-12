@@ -8,7 +8,6 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
   <artifactId>ws-rest-producto-server</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>ws-rest-producto-server Maven Webapp</name>
   <url>http://maven.apache.org</url>

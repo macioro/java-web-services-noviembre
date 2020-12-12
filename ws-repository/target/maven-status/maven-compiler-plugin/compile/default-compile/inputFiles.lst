@@ -1,6 +1,6 @@
-/home/macioro/git/java-web-services-noviembre/ws-repository/src/main/java/ar/com/educacionit/ws/repository/impl/ProductoRepositoryHibImpl.java
-/home/macioro/git/java-web-services-noviembre/ws-repository/src/main/java/ar/com/educacionit/ws/exceptions/GenericExeption.java
-/home/macioro/git/java-web-services-noviembre/ws-repository/src/main/java/ar/com/educacionit/ws/repository/hibernate/HibernateBaseRepository.java
-/home/macioro/git/java-web-services-noviembre/ws-repository/src/main/java/ar/com/educacionit/ws/exceptions/DuplicatedException.java
-/home/macioro/git/java-web-services-noviembre/ws-repository/src/main/java/ar/com/educacionit/ws/repository/ProductoRepository.java
-/home/macioro/git/java-web-services-noviembre/ws-repository/src/main/java/ar/com/educacionit/ws/repository/hibernate/HibernateUtils.java
+/home/macioro/java/workspace/java-web-services-noviembre/ws-repository/src/main/java/ar/com/educacionit/ws/repository/hibernate/HibernateBaseRepository.java
+/home/macioro/java/workspace/java-web-services-noviembre/ws-repository/src/main/java/ar/com/educacionit/ws/exceptions/DuplicatedException.java
+/home/macioro/java/workspace/java-web-services-noviembre/ws-repository/src/main/java/ar/com/educacionit/ws/repository/ProductoRepository.java
+/home/macioro/java/workspace/java-web-services-noviembre/ws-repository/src/main/java/ar/com/educacionit/ws/exceptions/GenericExeption.java
+/home/macioro/java/workspace/java-web-services-noviembre/ws-repository/src/main/java/ar/com/educacionit/ws/repository/hibernate/HibernateUtils.java
+/home/macioro/java/workspace/java-web-services-noviembre/ws-repository/src/main/java/ar/com/educacionit/ws/repository/impl/ProductoRepositoryHibImpl.java
