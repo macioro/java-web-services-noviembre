@@ -19,7 +19,11 @@ public class ProductoServiceImpl implements ProductoService {
 	}
 	
 	public Producto obtenerProducto(Long id) {
-		return this.productoRepository.getByID(id);
+		try {
+			return this.productoRepository.getByID(id);
+		} catch (GenericExeption e) {
+			return null;
+		}
 	}
 
 	public List<Producto> findProductos() {
@@ -45,6 +49,14 @@ public class ProductoServiceImpl implements ProductoService {
 			//SLF4
 			//LOGBACK
 			throw new ServiceException(e.getMessage());
+		}
+	}
+
+	public Producto eliminarProducto(Long id) throws ServiceException {
+		try {
+			return this.productoRepository.deleteProducto(id);
+		} catch (GenericExeption e) {
+			throw new ServiceException(e.getMessage(), e);
 		}
 	}
 	

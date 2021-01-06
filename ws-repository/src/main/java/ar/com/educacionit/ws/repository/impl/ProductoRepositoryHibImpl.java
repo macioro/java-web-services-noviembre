@@ -103,4 +103,26 @@ public class ProductoRepositoryHibImpl extends HibernateBaseRepository implement
 		return productoACrear;
 	}
 
+	public Producto deleteProducto(Long id) throws GenericExeption {
+		Producto producto = getByID(id);
+		
+		Session session = factory.getCurrentSession();
+		
+		try {
+			session.beginTransaction();
+		
+		
+		session.remove(producto);
+		
+		session.getTransaction().commit();
+		
+		}catch (Exception e) {
+			session.getTransaction().rollback();
+			throw new GenericExeption(e.getMessage(), e);
+		}finally {
+			session.close();
+		}
+		return producto;
+	}
+
 }

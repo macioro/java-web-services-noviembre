@@ -1,3 +1,4 @@
-/home/macioro/git/java-web-services-noviembre/ws-rest-producto-server/src/main/java/ar/com/educacionit/ws/rest/dto/ProductoRequestDTO.java
-/home/macioro/git/java-web-services-noviembre/ws-rest-producto-server/src/main/java/ar/com/educacionit/ws/rest/resources/ProductoResource.java
-/home/macioro/git/java-web-services-noviembre/ws-rest-producto-server/src/main/java/ar/com/educacionit/ws/rest/configuration/Configuration.java
+/home/macioro/java/workspace/java-web-services-noviembre/ws-rest-producto-server/src/main/java/ar/com/educacionit/ws/rest/configuration/Configuration.java
+/home/macioro/java/workspace/java-web-services-noviembre/ws-rest-producto-server/src/main/java/ar/com/educacionit/ws/rest/dto/ProductoRequestDTO.java
+/home/macioro/java/workspace/java-web-services-noviembre/ws-rest-producto-server/src/main/java/ar/com/educacionit/ws/rest/resources/ProductoResource.java
+/home/macioro/java/workspace/java-web-services-noviembre/ws-rest-producto-server/src/main/java/ar/com/educacionit/ws/rest/resources/ProductoRestWSErrorEnum.java
