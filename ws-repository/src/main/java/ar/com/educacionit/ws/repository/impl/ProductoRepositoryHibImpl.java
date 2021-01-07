@@ -37,6 +37,7 @@ public class ProductoRepositoryHibImpl extends HibernateBaseRepository implement
 			String sql = "Select e from " + Producto.class.getName() + " e where e.id=:id ";
 
 			// Create Query object.
+			@SuppressWarnings("unchecked")
 			Query<Producto> query = session.createQuery(sql);
 
 			query.setParameter("id", id);
@@ -73,6 +74,7 @@ public class ProductoRepositoryHibImpl extends HibernateBaseRepository implement
 		//hql
 		String sql = "Select p from " + Producto.class.getName() + " p";
 		
+		@SuppressWarnings("unchecked")
 		Query<Producto> query = session.createQuery(sql);
 		
 		productos = query.getResultList();
